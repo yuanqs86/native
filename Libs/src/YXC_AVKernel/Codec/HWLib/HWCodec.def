@@ -1,0 +1,26 @@
+; HWCodec.def : Declares the module parameters for the DLL.
+
+LIBRARY      "HWCodec"
+
+EXPORTS
+
+YXV_HWDeviceGetNumber
+YXV_HWDeviceOpen
+YXV_HWDeviceClose
+YXV_HWEncoderOpen
+YXV_HWEncoderGetInfo
+YXV_HWEncoderConfig
+YXV_HWEncoderQueuedInput
+YXV_HWEncoderGetOutput
+YXV_HWEncoderClose
+YXV_HWEncoderGetSpsPps
+YXV_HWDecoderOpen
+YXV_HWDecoderGetInfo
+YXV_HWDecoderConfig
+YXV_HWDecoderQueuedInput
+YXV_HWDecoderGetOutput
+YXV_HWDecoderClose
+YXV_HWVPPOpen
+YXV_HWVPPClose
+YXV_HWVPPConfig
+YXV_HWRunFrameVPP

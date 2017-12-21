@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="lib_Debug"
+	OutputDirectory="$(ProjectDir)..\..\..\build\lib\VS2008\$(ConfigurationName)\$(PlatformName)\"
+	InheritedPropertySheets=".\vcbase.vsprops"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		Optimization="0"
+		PreprocessorDefinitions="_DEBUG;WIN32;DYNAMIC_CRT"
+		RuntimeLibrary="3"
+		DebugInformationFormat="4"
+	/>
+</VisualStudioPropertySheet>

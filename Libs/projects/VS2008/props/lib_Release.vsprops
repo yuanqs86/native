@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="lib_Release"
+	OutputDirectory="$(ProjectDir)..\..\..\build\lib\VS2008\$(ConfigurationName)\$(PlatformName)\"
+	InheritedPropertySheets=".\vcbase.vsprops"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		Optimization="2"
+		InlineFunctionExpansion="2"
+		EnableIntrinsicFunctions="true"
+		FavorSizeOrSpeed="1"
+		WholeProgramOptimization="true"
+		PreprocessorDefinitions="NDEBUG;WIN32;DYNAMIC_CRT"
+		RuntimeLibrary="2"
+		DebugInformationFormat="3"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		OptimizeReferences="2"
+		EnableCOMDATFolding="2"
+		LinkTimeCodeGeneration="1"
+	/>
+</VisualStudioPropertySheet>

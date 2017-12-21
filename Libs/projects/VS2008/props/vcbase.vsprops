@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="vcbase"
+	IntermediateDirectory="$(ProjectDir)..\..\..\build\temp\VS2008\$(ProjectName)\$(ConfigurationName)\$(PlatformName)\"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="../../../include;../../../src;../../../../ExtLibs/Utils/include"
+		WarningLevel="3"
+	/>
+	<Tool
+		Name="VCLibrarianTool"
+		AdditionalLibraryDirectories="&quot;..\..\..\build\lib\VS2008\$(ConfigurationName)\$(PlatformName)&quot;"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		LinkIncremental="1"
+		AdditionalLibraryDirectories="&quot;..\..\..\build\lib\VS2008\$(ConfigurationName)\$(PlatformName)&quot;;&quot;..\..\..\build\dylib\VS2008\$(ConfigurationName)\$(PlatformName)&quot;"
+		GenerateDebugInformation="true"
+		ImportLibrary="$(ProjectDir)..\..\..\build\dylib\VS2008\$(ConfigurationName)\$(PlatformName)\$(TargetName).lib"
+	/>
+	<UserMacro
+		Name="LibOutDir"
+		Value="$(ProjectDir)..\..\..\build\lib\VS2008\$(ConfigurationName)\$(PlatformName)\"
+	/>
+	<UserMacro
+		Name="BinOutDir"
+		Value="$(ProjectDir)..\..\..\build\bin\VS2008\$(ConfigurationName)\$(PlatformName)\"
+	/>
+</VisualStudioPropertySheet>

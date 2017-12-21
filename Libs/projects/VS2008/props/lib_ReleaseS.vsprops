@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="lib_ReleaseS"
+	OutputDirectory="$(ProjectDir)..\..\..\build\lib\VS2008\$(ConfigurationName)\$(PlatformName)\"
+	InheritedPropertySheets=".\vcbase.vsprops"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		Optimization="2"
+		InlineFunctionExpansion="2"
+		EnableIntrinsicFunctions="true"
+		FavorSizeOrSpeed="1"
+		WholeProgramOptimization="true"
+		PreprocessorDefinitions="NDEBUG;WIN32;STATIC_CRT"
+		DebugInformationFormat="3"
+	/>
+</VisualStudioPropertySheet>

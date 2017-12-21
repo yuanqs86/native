@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="bin_DebugS"
+	OutputDirectory="$(ProjectDir)..\..\..\build\bin\VS2008\$(ConfigurationName)\$(PlatformName)\"
+	InheritedPropertySheets=".\lib_DebugS.vsprops"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		PreprocessorDefinitions="YXC_EXPORTS_FLAG=YXC_EXPORTS_WHOLE_DLL"
+	/>
+</VisualStudioPropertySheet>
